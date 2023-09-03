@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Dario Prawara Teh | My Projects</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:title" content="Dario's Webpage">
+	  <meta property="og:description" content="Explore a world of technology and innovation through my portfolio website. Join me on a digital journey of creativity, learning, and growth.">
+	  <meta property="og:image" content="https://darios-webpage.netlify.app/images/d-icon.png">
+	  <meta property="og:url" content="https://darios-webpage.netlify.app/">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <link rel="stylesheet" href="../css/style.css">
+	  <!-- Favicon-->
+    <link rel="shortcut icon" href="../images/d-icon.png">
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    
+    <!--Loader-->
+    <div class="loader">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        width="90px" height="80px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+        <rect x="0" y="10" width="5" height="10" opacity="0.5">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.8s" repeatCount="indefinite" />
+        </rect>
+        <rect x="8" y="10" width="5" height="10" opacity="0.5">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+        </rect>
+        <rect x="16" y="10" width="5" height="10" opacity="0.5">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+        </rect>
+      </svg>
+    </div>
+
+    <!-- Header for Logo -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target sticky-top" id="ftco-navbar">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand px-4 mt-1" href="../index.html">Dario.</a>
+        <!--Hamburger icon-->
+        <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle collapsed" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu px-4"></span>
+          <span class="oi oi-x px-4"></span>
+        </button>
+          
+        <!-- Links to Contact -->
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav nav ml-auto">
+            <li class="ftco-animate nav-item px-4"><a href="https://www.linkedin.com/in/dariopteh/"><span class="icon-linkedin" style="color:white; font-size: 23px;"></span></a></li>
+            <li class="ftco-animate nav-item px-4"><a href="https://github.com/DarioPTWR"><span class="icon-github" style="color:white; font-size: 23px;"></span></a></li>
+            <li class="ftco-animate nav-item px-4"><a href="https://www.instagram.com/darioprawara/"><span class="icon-instagram" style="color:white; font-size: 23px;"></span></a></li>
+            <li class="ftco-animate nav-item px-4"><a href="mailto:darioprawarateh@gmail.com"><span class="icon-envelope" style="color:white; font-size: 23px;"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Header for Projects Section Start-->
+    <section class="projects-desktop ftco-section ftco-no-pb">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">PROJECTS</h1>
+            <h2 class="mb-4">MY PROJECTS</h2>
+            <!--Description for Projects Section -->
+            <p>Feel free to browse my projects below!</p>
+          </div>
+        </div>
+    </section>
+
+    <!--Search Bar-->
+    <div class="container search-container">
+      <div class="search-bar">
+        
+        <input type="text" id="searchBar" style='color:white; margin-left:20px;' placeholder="BROWSE BY TOPIC ( E.G. AI )">
+        <span class="icon-search"></span>
+      </div>
+    </div>    
+
+    <!--Project Display - 3 x 3 formatting with image on top and text below (card formatted) use grid -->
+    <div class="container mt-5">
+        <div class="projectcards row" id="projectsRow">
+            <!-- Project cards will be dynamically generated here -->
+        </div>
+    </div>    
+
+    <!--Footer-->
+    <!--Contact Section (Reach out to Linkedin...)-->
+
+    <footer class="ftco-footer">
+
+        <div class="container">
+          <div class="row mb-2">
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-2 d-flex justify-content-center align-items-center">
+                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                  <li class="ftco-animate sm"><a href="https://www.linkedin.com/in/dariopteh/"><span class="icon-linkedin"></span></a></li>
+                  <li class="ftco-animate sm"><a href="https://github.com/DarioPTWR"><span class="icon-github"></span></a></li>
+                  <li class="ftco-animate sm"><a href="https://www.instagram.com/darioprawara/"><span class="icon-instagram"></span></a></li>
+                  <li class="ftco-animate sm"><a href="mailto:darioprawarateh@gmail.com"><span class="icon-envelope"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col-md-12 text-center mb-4">
+              <p style="font-size:15px">&copy;&nbsp;<script>document.write(new Date().getFullYear());</script> Dario PT | All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+  
+    </footer>
+
+    <!--JavaScript Function-->
+    <script>
+        // Project Data Collection and Display
+        const projectsData = [
+            { image: "../images/classification.png", title: "Bank Fraud Classification Model", description: "AI & MACHINE LEARNING", info: "Developed a classification model for banking, classifying customer financial behaviors to inform accurate risk assessment and lending decisions.", topLink: "projects-detail.html?projectId=0", bottomLink: "https://github.com/DarioPTWR/Bank-Fraud-Detection-Classification" },
+            { image: "../images/time_series.png", title: "Energy Consumption Forecasting", description: "AI & MACHINE LEARNING", info: "Utilized forecasting models (Holt-Winters, ARIMA, SARIMAX) on energy data to reveal trends and improve sustainability efforts.", topLink: "projects-detail.html?projectId=1", bottomLink: "https://github.com/DarioPTWR/Energy-Consumption-Forecasting" },
+            { image: "../images/frontend.png", title: "Bootstrap Portfolio Website", description: "FRONT-END WEB DEVELOPMENT", info: "A simple interactive webpage using Bootstrap's components and JavaScript's back-end, featuring myself and my life in Singapore Polytechnic.", topLink: "projects-detail.html?projectId=2", bottomLink: "https://github.com/DarioPTWR/Bootstrap-Personal-Website"  },
+            { image: "../images/regression.png", title: "US Housing Prices Prediction", description: "AI & MACHINE LEARNING",info: "Developed a Python regression model to predict US housing prices, offering valuable market insights for real estate professionals and homebuyers.", topLink: "projects-detail.html?projectId=3", bottomLink: "https://github.com/DarioPTWR/US-Housing-Pricing-Regression"  },
+            { image: "../images/clustering.png", title: "Mall Customers Clustering Analysis", description: "AI & MACHINE LEARNING", info: "Developed a clustering model to categorize customers by age, income, and spending, utilizing K-Means, Agglomerative Clustering and others.", topLink: "projects-detail.html?projectId=4", bottomLink: "https://github.com/DarioPTWR/Mall-Customers-Clustering-Analysis"  },
+            { image: "../images/energy.png", title: "Renewable Energy Data Analysis", description: "DATA SCIENCE & ANALYTICS", info: "A Python dashboard report analysis to assess the impact of low-carbon energies on emissions and air quality in Singapore.", topLink: "projects-detail.html?projectId=5",  bottomLink: "https://github.com/DarioPTWR/Renewable-Energy-Python-Analysis"  },
+            { image: "../images/membershipapp.png", title: "Shopping Loyalty Membership App", description: "APP DEVELOPMENT", info: "Used JavaScript's functions, arrays, methods and objects to build an interactive shoppers membership application for a company.", topLink: "projects-detail.html?projectId=6", bottomLink: "https://github.com/DarioPTWR/Shopper-Membership-JS-App"  },
+            { image: "../images/spdvd.png", title: "SPDVD Rental Store Webpage", description: "FULL-STACK WEB DEVELOPMENT", info: "A full-stack website for SP DVD rental store, incorporating an API-connected backend to streamline customer and employee data management.", topLink: "projects-detail.html?projectId=7", bottomLink: "https://github.com/DarioPTWR/DVD-Rental-FullStack-Website"  },
+            { image: "../images/transport.png", title: "Public Transport Data Analysis", description: "DATA SCIENCE & ANALYTICS",info: "A Python dashboard report analysis to discover insightful trends and observations relating to Singapore's public transport system.", topLink: "projects-detail.html?projectId=8", bottomLink: "https://github.com/DarioPTWR/SG-Transportation-Python-Analysis"  },
+            { image: "../images/education.png", title: "Singapore Education Data Analysis", description: "DATA SCIENCE & ANALYTICS", info: "A Python dashboard report analysis conducted to understand trends and insights within Singapore's education system.", topLink: "projects-detail.html?projectId=9", bottomLink: "https://github.com/DarioPTWR/SG-Education-Data-Analysis"  },
+            { image: "../images/pca.png", title: "Principal Component Analysis", description: "MACHINE LEARNING", info: "A Python project employing Principal Component Analysis to analyze and dimensionally reduce dairy and cars datasets.", topLink: "projects-detail.html?projectId=10", bottomLink: "https://github.com/DarioPTWR/Principal-Component-Analysis"  },
+            { image: "../images/gradientdescent.png", title: "Gradient Descent Algorithm", description: "MACHINE LEARNING", info: "A gradient descent algorithm for linear regression to predict resale prices of 4-Room HDB flats in Choa Chu Kang from January to June 2023.", topLink: "projects-detail.html?projectId=11", bottomLink: "https://github.com/DarioPTWR/Gradient-Descent-Algorithm"  },
+            { image: "../images/portfolio_website.png", title: "Personal Portfolio Website", description: "FRONT-END WEB DEVELOPMENT", info: "You're looking at it now! An interactive, fully responsive website to showcase my portfolio in technology, hosted on Netlify.", topLink: "projects-detail.html?projectId=12", bottomLink: "link1-bottom"  },
+        ];
+    
+        // Initialize projectsRow based on ID set earlier
+        const projectsRow = document.getElementById("projectsRow");
+
+        // Function to display projects based on filtered data
+        function displayProjects(projects) {
+
+          projectsRow.innerHTML = ''; // Clear existing projects
+
+          for (let projectId = 0; projectId < projects.length; projectId++) {
+            const project = projects[projectId];
+
+            // Create elements for the card
+            const colDiv = document.createElement("div");
+            colDiv.classList.add("col-md-4", "mb-4");
+    
+            const cardDiv = document.createElement("div");
+            cardDiv.classList.add("card", "ftco-animate-card");
+            cardDiv.style.cssText = "background-color:rgba(255, 255, 255, 0.1);";
+
+            const cardLink = document.createElement("a");
+    
+            const cardImg = document.createElement("img");
+            cardImg.src = project.image;
+            cardImg.alt = project.title;
+            cardImg.classList.add("card-img-top");
+            cardImg.style.paddingTop = "16px"; // Top padding
+            cardImg.style.paddingBottom = "5px"; // Bottom padding
+            cardImg.style.paddingLeft = "16px"; // Left padding
+            cardImg.style.paddingRight = "16px"; // Right padding
+            cardImg.style.borderRadius = "19px"; // Rounded corners
+            
+            const cardBody = document.createElement("div");
+            cardBody.classList.add("card-body", "text-center");
+    
+            const cardTitle = document.createElement("h5");
+            cardTitle.classList.add("card-title");
+            cardTitle.style.fontSize = "20px";
+            cardTitle.style.fontWeight = "bold";
+            cardTitle.textContent = project.title.toUpperCase();
+
+            const cardInfo = document.createElement("p");
+            cardInfo.classList.add("card-text");
+            cardInfo.textContent = project.info;
+            cardInfo.style.cssText = "color:white;";
+            cardInfo.style.fontSize = "15px";
+    
+            const cardText = document.createElement("p");
+            cardText.classList.add("card-text");
+            cardText.textContent = project.description;
+            cardText.style.fontSize = "14px";
+            cardText.style.cssText = "border: 4px solid white; border-radius: 7px; font-weight:700;";
+
+            // Create buttons with individual links
+            const topButton = createButton('LEARN MORE', project.topLink);
+            topButton.dataset.projectId = project.topLink;
+
+            const bottomButton = createButton('<span class="icon-github"></span>&nbsp;VIEW CODE', project.bottomLink);
+            
+            // Append elements to the structure
+            cardLink.appendChild(cardImg);
+            cardBody.appendChild(cardText);
+            cardBody.appendChild(cardTitle);
+            cardBody.appendChild(cardInfo);
+            cardBody.appendChild(topButton);
+            cardBody.appendChild(bottomButton);
+            cardDiv.appendChild(cardLink);
+            cardDiv.appendChild(cardBody);
+            colDiv.appendChild(cardDiv);
+            projectsRow.appendChild(colDiv);
+          }
+        }
+  
+        // Function to create buttons with links
+        function createButton(htmlContent, topLink) {
+            const button = document.createElement("a");
+            button.classList.add("mt-2");
+            button.href = topLink;
+            button.innerHTML = htmlContent; 
+            button.style.color = "#ffffff";
+            button.style.borderColor = "#ffffff";
+            button.style.fontWeight = "600";
+            button.style.fontSize = "14px";
+            button.style.borderWidth = "1px";
+            button.style.paddingBottom = "2px";
+            button.style.paddingTop = "2px";
+            button.style.borderStyle = "solid";
+            button.style.borderRadius = "20px";
+            button.style.letterSpacing = "2px";
+
+            // Add event listener for the 'Learn More' button
+            button.addEventListener("click", (event) => {
+            // Get the projectId from the clicked button's data attribute
+            const clickedButton = event.target;
+            const projectId = parseInt(clickedButton.dataset.projectId);
+
+            // Redirect user to project detail page with the corresponding projectId
+            const project = projectsData[projectId]; // Get the project using projectId
+            window.location.href = project.topLink;
+          });
+            return button;
+        }
+
+         // Get a reference to the search bar element
+         const searchBar = document.getElementById('searchBar');
+
+         // Add an event listener to detect when the user types in the search bar
+         searchBar.addEventListener('input', () => {
+             const searchTerm = searchBar.value;
+             filterProjects(searchTerm);
+         });
+
+
+        // Function to filter projects based on the search term
+        function filterProjects(searchTerm) {
+          // Filter projects by their categorical description
+          searchTerm = searchTerm.toLowerCase().trim();
+          const filteredProjects = projectsData.filter((project) => {
+            return project.description.toLowerCase().includes(searchTerm);
+          });
+
+          // Check if the project exists or not in the data array
+          if (filteredProjects.length === 0) {
+            const projectsRow = document.getElementById("projectsRow");
+            projectsRow.classList.add("center-content");
+            // Remove animations for social media icons
+            const socialMediaLinks = document.querySelectorAll(".sm");
+            // Loop through the elements and remove the "ftco-animate" class from each
+            socialMediaLinks.forEach(link => {
+              link.classList.remove("ftco-animate");
+            });
+            // Print message
+            projectsRow.innerHTML = `<p class='mt-3' id='noresult' style='font-weight:800;'>SORRY!<br>NO RELATED PROJECT FOUND.</p>`;
+
+          } else if ((filteredProjects.length < projectsData.length) && (filteredProjects.length != 0)) {
+              const projectsRow = document.getElementById("projectsRow");
+              // Remove animations for social media icons
+              const socialMediaLinks = document.querySelectorAll(".sm");
+              // Loop through the elements and remove the "ftco-animate" class from each
+              socialMediaLinks.forEach(link => {
+                link.classList.remove("ftco-animate");
+              });
+              // Display projects
+              displayProjects(filteredProjects);
+              
+          } else {
+              const projectsRow = document.getElementById("projectsRow");
+              projectsRow.classList.remove("center-content");
+              displayProjects(filteredProjects);
+          }
+        }
+      
+        // Display all projects by default
+        displayProjects(projectsData);
+
+        // Loader Function
+        setTimeout(function(){
+          $('.loader').fadeToggle();
+        }, 1500);
+    </script>
+
+    <!--JavaScript Files-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/jquery.stellar.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/jquery.animateNumber.min.js"></script>
+    <script src="../js/scrollax.min.js"></script>
+    <script src="../js/main.js"></script>
+
+  </body>
+</html>
+

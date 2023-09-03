@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Dario Prawara Teh | My Projects</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:title" content="Dario's Webpage">
+	  <meta property="og:description" content="Explore a world of technology and innovation through my portfolio website. Join me on a digital journey of creativity, learning, and growth.">
+	  <meta property="og:image" content="https://darios-webpage.netlify.app/images/d-icon.png">
+	  <meta property="og:url" content="https://darios-webpage.netlify.app/">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <link rel="stylesheet" href="../css/style.css">
+	  <!-- Favicon-->
+    <link rel="shortcut icon" href="../images/d-icon.png">
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    
+    <!--Loader-->
+    <div class="loader">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        width="90px" height="80px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+        <rect x="0" y="10" width="5" height="10" opacity="0.5">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.8s" repeatCount="indefinite" />
+        </rect>
+        <rect x="8" y="10" width="5" height="10" opacity="0.5">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+        </rect>
+        <rect x="16" y="10" width="5" height="10" opacity="0.5">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+        </rect>
+      </svg>
+    </div>
+
+    <!-- Header for Logo -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target sticky-top" id="ftco-navbar">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand px-4 mt-1" href="../index.html">Dario.</a>
+
+        <!-- Hamburger Menu Button -->
+        <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle collapsed" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu px-4"></span>
+          <span class="oi oi-x px-4"></span>
+        </button>
+          
+        <!-- Links to Contact -->
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav nav ml-auto">
+            <li class="ftco-animate nav-item px-4"><a href="https://www.linkedin.com/in/dariopteh/"><span class="icon-linkedin" style="color:white; font-size: 23px;"></span></a></li>
+            <li class="ftco-animate nav-item px-4"><a href="https://github.com/DarioPTWR"><span class="icon-github" style="color:white; font-size: 23px;"></span></a></li>
+            <li class="ftco-animate nav-item px-4"><a href="https://www.instagram.com/darioprawara/"><span class="icon-instagram" style="color:white; font-size: 23px;"></span></a></li>
+            <li class="ftco-animate nav-item px-4"><a href="mailto:darioprawarateh@gmail.com"><span class="icon-envelope" style="color:white; font-size: 23px;"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class='ftco-section'>
+        <div class="container projects-desktop" id="projectDetail">
+            <!--Display relevant project details-->
+        </div>
+    </section>
+
+    <!--Javascript Function-->
+    <script>
+        // Project Data Retrieval by ID
+        const projectsData = [
+            { image: "../images/classification-info.png", title: "Bank Fraud Classification Model", description: "AI & MACHINE LEARNING", software:"This project mainly relied on Python, utilizing key libraries including Matplotlib, Seaborn, and Scikit-Learn.", info: "This project involves the creation of a tailored Python Scikit-Learn classification model designed for the banking sector. It encompasses the application of advanced data analysis methods to categorize customers' financial patterns and assess their risk characteristics. As a result, financial establishments gain the capability to make knowledgeable choices regarding risk evaluation and loan criteria. This contributes to a more accurate and knowledgeable methodology within the industry.", topLink: "projects-detail.html?projectId=0", bottomLink: "https://github.com/DarioPTWR/Bank-Fraud-Detection-Classification/blob/main/FRAUD-DETECTION.ipynb" },
+            { image: "../images/time_series-info.png", title: "Energy Consumption Forecasting", description: "AI & MACHINE LEARNING", software:"This project mainly relied on Python, utilizing key libraries including Matplotlib, Seaborn, SciPy, and StatsModels.", info: "This project involves the creation of time series forecasting models utilizing Holt-Winters Exponential Smoothing, ARIMA, and SARIMAX techniques. By analyzing past energy consumption data, the goal is to reveal patterns, seasonal variations, and irregularities. The outcomes from this analysis can provide significant insights for enhancing sustainability initiatives to energy providers and policymakers.", topLink: "projects-detail.html?projectId=1", bottomLink: "https://github.com/DarioPTWR/Energy-Consumption-Forecasting/blob/main/CA2%20PART%20A%20-%20TIME%20SERIES.ipynb" },
+            { image: "../images/frontend-info.png", title: "Bootstrap Portfolio Website", description: "FRONT-END WEB DEVELOPMENT", software:"This project mainly relied on the use of HTML 5, CSS 3, and Bootstrap for front-end development, complemented with the use of JavaScript for additional interactivity and website engagement.", info: "This project is about creating a website that showcases my journey in the field of SP, shares my personal insights, and outlines my future career objectives. By harnessing the power of Bootstrap's components, I've enhanced the user experience. I've also incorporated JavaScript to introduce dynamic elements and animations, while ensuring a mobile-responsive layout through Bootstrap's grid model.", topLink: "projects-detail.html?projectId=2", bottomLink: "https://dario-prawara-teh.netlify.app/"  },
+            { image: "../images/regression-info.png", title: "US Housing Prices Prediction", description: "AI & MACHINE LEARNING", software:"This project mainly relied on Python, utilizing key libraries including Matplotlib, Seaborn, and Scikit-Learn.", info: "This project involves the development of a Python Scikit-Learn regression model aimed at predicting and analyzing housing prices in the United States. By utilizing historical pricing data, the model is designed to make forecasts based on various significant influencing factors, such as the renovation status of each housing record. The objective is to provide real estate professionals, investors, and homebuyers with valuable insights into the current market trends and dynamics.", topLink: "projects-detail.html?projectId=3", bottomLink: "https://github.com/DarioPTWR/US-Housing-Pricing-Regression/blob/main/US-HOUSING-PREDICTION.ipynb"  },
+            { image: "../images/clustering-info.png", title: "Mall Customers Clustering Analysis", description: "AI & MACHINE LEARNING", software:"This project mainly relied on Python, utilizing key libraries including Matplotlib, Seaborn and Scikit-Learn.", info: "This project is centered around the ambitious goal of constructing an AI-driven clustering model that serves the purpose of effectively classifying customers based on key parameters including age, income, and spending behavior. By delving into the realm of data analysis and machine learning, this initiative seeks to enhance our understanding of customer segments and their distinct characteristics. To achieve this, the project will extensively explore a variety of advanced clustering techniques, notably encompassing K-Means, Agglomerative Clustering, and Mean-Shift methodologies. ", topLink: "projects-detail.html?projectId=4", bottomLink: "https://github.com/DarioPTWR/Mall-Customers-Clustering-Analysis/blob/main/CA2%20PART%20B%20-%20UNSUPERVISED%20LEARNING.ipynb"  },
+            { image: "../images/energy-info.png", title: "Renewable Energy Data Analysis", description: "DATA SCIENCE & ANALYTICS", software:"This project mainly relied on Python, utilizing key visualization libraries including Matplotlib and Seaborn, coupled with data processing libraries including NumPy and Pandas.", info: "This project is centered around a comprehensive Python data analysis endeavor, where the capabilities of libraries like Seaborn, NumPy, Pandas, and Matplotlib were harnessed to their fullest. The core objective of this undertaking was to delve into the intricate relationship between low-carbon energies and their effects on emissions and air quality specifically within the context of Singapore. Through the systematic processing and visualization of data, the project aimed to provide a nuanced understanding of the extent to which these sustainable energy sources influence environmental factors in the region.", topLink: "projects-detail.html?projectId=5",  bottomLink: "https://github.com/DarioPTWR/Renewable-Energy-Python-Analysis/blob/main/IPYNB%20-%20Assessing%20the%20Impact%20of%20Low-Carbon%20Energy%20on%20Reducing%20Emissions%20and%20Enhancing%20Air%20Quality.ipynb"  },
+            { image: "../images/membershipapp-info.png", title: "Shopping Loyalty Membership App", description: "APP DEVELOPMENT", software:"This project solely relied on JavaScript, making extensive use of functions, arrays, objects and methods in the development of the application.", info: "This project is focused on harnessing the power of JavaScript to develop an engaging loyalty membership application tailored for shoppers, all within the framework of a specific company. By utilizing JavaScript's capabilities, the application becomes interactive, enhancing the overall user experience.", topLink: "projects-detail.html?projectId=6", bottomLink: "https://github.com/DarioPTWR/Shopper-Membership-JS-App/blob/main/STAGE2_CA2_DARIO.JS"  },
+            { image: "../images/spdvd-info.png", title: "SPDVD Rental Store Webpage", description: "FULL-STACK WEB DEVELOPMENT", software:"This project mainly relied on the use of HTML 5, CSS 3, and Bootstrap for front-end development, complemented with the use of Node.js, Express.js, MySQL and Javascript for back-end development.", info: "This project is centered around the development of a comprehensive full-stack website tailored for the SP DVD rental store. In order to streamline the management and updating of customer and employee data, an existing database is being utilized. To achieve this, a robust backend API is being created, enhancing the overall efficiency of data operations.", topLink: "projects-detail.html?projectId=7", bottomLink: "https://github.com/DarioPTWR/DVD-Rental-FullStack-Website"  },
+            { image: "../images/transport-info.png", title: "Public Transport Data Analysis", description: "DATA SCIENCE & ANALYTICS", software:"This project mainly relied on Python, utilizing key visualization libraries including Matplotlib, Seaborn, and Plotly, coupled with Pandas and NumPy libraries for data processing.", info: "This project is a Python Data Analytics endeavor that aims to uncover valuable trends and observations related to Singapore's public transport system. By leveraging libraries like Matplotlib, NumPy, Pandas, Seaborn, and Plotly, I delved into the data with a focus on exploration and visualization, ultimately aiming to provide insightful insights into the transport system's dynamics and patterns.", topLink: "projects-detail.html?projectId=8", bottomLink: "https://github.com/DarioPTWR/SG-Transportation-Python-Analysis/blob/main/IPYNB%20-%20CA2%20-%20Data%20Visualisation%20on%20Singapore's%20Land%20Public%20Transport.ipynb"  },
+            { image: "../images/education-info.png", title: "Singapore Education Data Analysis", description: "DATA SCIENCE & ANALYTICS", software:"This project mainly relied on Python, utilizing only Matplotlib for data visualizations, coupled with the NumPy library for data processing.", info: "This project involved an extensive Python data analysis to uncover trends in Singapore's education system. By examining various data points, including enrollment, performance, and socio-economic factors, the project aimed to reveal hidden patterns. Through statistical methods and visualization, it provided insights into the system's current state and potential future developments. The project's outcomes aimed to guide educational improvements and informed decision-making for policymakers and stakeholders.", topLink: "projects-detail.html?projectId=9", bottomLink: "https://github.com/DarioPTWR/SG-Education-Data-Analysis/blob/main/Dataset%201%20-%20Recurrent%20Expenditures.ipynb"  },
+            { image: "../images/pca-info.png", title: "Principal Component Analysis", description: "MACHINE LEARNING", software:"This project mainly relied on Python, utilizing Matplotlib and Seaborn libraries for data visualizations, and Scikit-Learn for performing Principal Component Analysis on the dataset.", info: "This project is implemented using the Python programming language, specifically employing the technique of Principal Component Analysis (PCA). The primary objective of this endeavor is to conduct an in-depth analysis and subsequently reduce the dimensionality of two distinct datasets. The first dataset pertains to dairy-related information, while the second dataset contains comprehensive details about various cars. By applying PCA, the project aims to uncover underlying patterns, correlations, and intrinsic structures within the datasets.", topLink: "projects-detail.html?projectId=10", bottomLink: "https://github.com/DarioPTWR/Principal-Component-Analysis/blob/main/PCA-DAIRY-DATASET.ipynb"  },
+            { image: "../images/gradientdescent-info.png", title: "Gradient Descent Algorithm", description: "MACHINE LEARNING", software:"This project mainly relied on Python and Minitab, utilizing data processing libraries including NumPy, Pandas and StandardScaler to perform gradient descent.", info: "This project revolves around the creation and implementation of a gradient descent algorithm customized specifically for the task of linear regression. The goal is to leverage data analysis and machine learning to predict the resale transacted prices of 4-Room HDB flats located in the Choa Chu Kang area from January to June 2023. By leveraging historical data and optimization techniques, this project aims to provide valuable and accurate forecasts for property resale prices, contributing to informed decision-making in the real estate market.", topLink: "projects-detail.html?projectId=11", bottomLink: "https://github.com/DarioPTWR/Gradient-Descent-Algorithm/blob/main/Gradient-Descent-Algorithm.ipynb"  },
+            { image: "../images/portfolio_website-info.png", title: "Personal Portfolio Website", description: "FRONT-END WEB DEVELOPMENT", software:"This project mainly relied on the use of HTML 5, CSS 3, and Bootstrap for front-end development, complemented with the use of JavaScript for storing data and providing interactivity to the website.", info: "This project is what you're currently viewing. It's an interactive and fully responsive website designed to present my technology portfolio, including my works and experiences in artificial intelligence and data analytics. It is hosted on Netlify for viewing by the public.", topLink: "projects-detail.html?projectId=12", bottomLink: "https://darios-webpage.netlify.app/"  },
+        ];
+
+        // Get the projectId from the URL query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const projectId = urlParams.get('projectId'); 
+
+        // Find the project with the matching projectId
+        const selectedProject = projectsData.find(project => project.topLink === `projects-detail.html?projectId=${projectId}`);
+
+        // Display the project details
+        const projectDetailDiv = document.getElementById('projectDetail');
+        if (selectedProject) {
+            const projectDetailHTML = 
+            ` 
+                <p class='project-description text-center px-2' style='border: 4px solid white; border-radius: 7px; font-weight:700; margin: 0 auto;'>${selectedProject.description}</p>
+                <h2 class='project-title text-center px-4 pt-3' style='font-weight:bold; text-transform:uppercase;'>${selectedProject.title}</h2>
+                <div class="text-center">
+                    <img class='project-image img-fluid mt-3' src='${selectedProject.image}' alt='${selectedProject.title}' style="border-radius:0.375rem;">
+                </div>
+                <a href="${selectedProject.bottomLink}" class="demo-button" style='border: 2px solid white; border-radius: 7px; padding-top:9px; padding-bottom:9px;' target="_blank">VIEW PROJECT DEMO HERE</a>
+                <h5 class='description-head' style='font-weight:bold; color:white; position: relative;'>PROJECT DESCRIPTION<span class='underline mt-3'></span></h5>
+                <p class='description-text mt-5' style='color:white;'>${selectedProject.info}</p>
+                <h5 class='software-head' style='font-weight:bold; color:white; position: relative;'>HOW IT WAS DESIGNED<span class='underline mt-3'></span></h5>
+                <p class='software-text pr-5 mt-5 mb-5' style='color:white;'>${selectedProject.software}</p>
+                <a href="./projects.html" class="back" style='border: 2px solid white; border-radius: 7px; padding-top:9px; padding-bottom:9px;'>&#8592;&emsp;BACK TO PROJECTS</a>
+            
+            `;
+            projectDetailDiv.innerHTML = projectDetailHTML;
+        } else {
+            projectDetailDiv.innerHTML = '<p class="text-center" style="margin-top:100px">PROJECT NOT FOUND.</p>';
+        }
+
+        // Loader Function
+        setTimeout(function(){
+          $('.loader').fadeToggle();
+        }, 1500);
+    </script>
+
+    <!--Footer-->
+    <!--Contact Section (Reach out to Linkedin...)-->
+
+    <footer class="ftco-footer">
+
+        <div class="container">
+          <div class="row mb-2">
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-2 d-flex justify-content-center align-items-center">
+                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                  <li class="ftco-animate"><a href="https://www.linkedin.com/in/dariopteh/"><span class="icon-linkedin"></span></a></li>
+                  <li class="ftco-animate"><a href="https://github.com/DarioPTWR"><span class="icon-github"></span></a></li>
+                  <li class="ftco-animate"><a href="https://www.instagram.com/darioprawara/"><span class="icon-instagram"></span></a></li>
+                  <li class="ftco-animate"><a href="mailto:darioprawarateh@gmail.com"><span class="icon-envelope"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col-md-12 text-center mb-4">
+              <p style="font-size:15px">&copy;&nbsp;<script>document.write(new Date().getFullYear());</script> Dario PT | All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+  
+    </footer>
+
+    <!--JavaScript Files-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/jquery.stellar.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/jquery.animateNumber.min.js"></script>
+    <script src="../js/scrollax.min.js"></script>
+    <script src="../js/main.js"></script>
+
+  </body>
+</html>
