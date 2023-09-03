@@ -10058,6 +10058,7 @@ textarea.form-control {
   }
   .project-image{
       width:90%;
+      height:185px;
       margin-bottom:25px;
   }
   .description-head, .description-text, .software-head, .software-text{
