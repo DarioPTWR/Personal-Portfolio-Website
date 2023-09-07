@@ -10064,7 +10064,7 @@ textarea.form-control {
   .description-head, .description-text, .software-head, .software-text{
       margin-left: 17px;
       font-size:15px;
-      padding-right:20px;
+      padding-right:18px;
       margin-top:40px;
   }
   .back{
@@ -10330,27 +10330,6 @@ textarea.form-control {
       width:88%;
       margin-bottom:35px;
  }
-}
-
-/* Loader CSS Animation */
-.loader {
-  background-color: #343a40;
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 222222;
-}
-.loader svg {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-.loader svg path, .loader svg rect {
-  fill: #ffbd39;
 }
 
 /* Navigation Hamburger Icon */
