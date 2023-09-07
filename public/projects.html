@@ -144,7 +144,8 @@
             { image: "../images/education.png", title: "Singapore Education Data Analysis", description: "DATA SCIENCE & ANALYTICS", info: "A Python dashboard report analysis conducted to understand trends and insights within Singapore's education system.", topLink: "projects-detail.html?projectId=9", bottomLink: "https://github.com/DarioPTWR/SG-Education-Data-Analysis"  },
             { image: "../images/pca.png", title: "Principal Component Analysis", description: "MACHINE LEARNING", info: "A Python project employing Principal Component Analysis to analyze and dimensionally reduce dairy and cars datasets.", topLink: "projects-detail.html?projectId=10", bottomLink: "https://github.com/DarioPTWR/Principal-Component-Analysis"  },
             { image: "../images/gradientdescent.png", title: "Gradient Descent Algorithm", description: "MACHINE LEARNING", info: "A gradient descent algorithm for linear regression to predict resale prices of 4-Room HDB flats in Choa Chu Kang from January to June 2023.", topLink: "projects-detail.html?projectId=11", bottomLink: "https://github.com/DarioPTWR/Gradient-Descent-Algorithm"  },
-            { image: "../images/portfolio_website.png", title: "Personal Portfolio Website", description: "FRONT-END WEB DEVELOPMENT", info: "You're looking at it now! An interactive, fully responsive website to showcase my portfolio in technology, hosted on Netlify.", topLink: "projects-detail.html?projectId=12", bottomLink: "link1-bottom"  },
+            { image: "../images/portfolio_website.png", title: "Personal Portfolio Website", description: "FRONT-END WEB DEVELOPMENT", info: "You're looking at it now! An interactive, fully responsive website to showcase my portfolio in technology, hosted on Netlify.", topLink: "projects-detail.html?projectId=12", bottomLink: "https://darios-webpage.netlify.app/"  },
+            { image: "../images/emotion-reco.png", title: "Emotion Recognition Image Analysis", description: "DEEP LEARNING", info: "Developed a Tensorflow image classification model for multi-class image classification analysis to determine human emotions.", topLink: "projects-detail.html?projectId=13", bottomLink: "https://github.com/DarioPTWR/Emotion-Recognition-Neural-Network"  }
         ];
     
         // Initialize projectsRow based on ID set earlier
@@ -173,13 +174,14 @@
             cardImg.alt = project.title;
             cardImg.classList.add("card-img-top");
             cardImg.style.paddingTop = "16px"; // Top padding
-            cardImg.style.paddingBottom = "5px"; // Bottom padding
             cardImg.style.paddingLeft = "16px"; // Left padding
             cardImg.style.paddingRight = "16px"; // Right padding
-            cardImg.style.borderRadius = "19px"; // Rounded corners
+            cardImg.style.paddingBottom = "16px"; // Bottom padding
+            cardImg.style.borderRadius = "20px"; // Rounded corners
             
             const cardBody = document.createElement("div");
             cardBody.classList.add("card-body", "text-center");
+            cardBody.style.marginTop = "-15px";
     
             const cardTitle = document.createElement("h5");
             cardTitle.classList.add("card-title");
@@ -300,11 +302,6 @@
       
         // Display all projects by default
         displayProjects(projectsData);
-
-        // Loader Function
-        setTimeout(function(){
-          $('.loader').fadeToggle();
-        }, 1500);
     </script>
 
     <!--JavaScript Files-->
@@ -321,4 +318,3 @@
 
   </body>
 </html>
-
