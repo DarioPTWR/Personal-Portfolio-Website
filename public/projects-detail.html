@@ -26,28 +26,6 @@
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     
-    <!--Loader-->
-    <div class="loader">
-      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        width="90px" height="80px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-        <rect x="0" y="10" width="5" height="10" opacity="0.5">
-        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.8s" repeatCount="indefinite" />
-        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.8s" repeatCount="indefinite" />
-        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.8s" repeatCount="indefinite" />
-        </rect>
-        <rect x="8" y="10" width="5" height="10" opacity="0.5">
-        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
-        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
-        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
-        </rect>
-        <rect x="16" y="10" width="5" height="10" opacity="0.5">
-        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
-        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
-        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
-        </rect>
-      </svg>
-    </div>
-
     <!-- Header for Logo -->
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target sticky-top" id="ftco-navbar">
       <div class="container">
@@ -95,6 +73,7 @@
             { image: "../images/pca-info.png", title: "Principal Component Analysis", description: "MACHINE LEARNING", software:"This project mainly relied on Python, utilizing Matplotlib and Seaborn libraries for data visualizations, and Scikit-Learn for performing Principal Component Analysis on the dataset.", info: "This project is implemented using the Python programming language, specifically employing the technique of Principal Component Analysis (PCA). The primary objective of this endeavor is to conduct an in-depth analysis and subsequently reduce the dimensionality of two distinct datasets. The first dataset pertains to dairy-related information, while the second dataset contains comprehensive details about various cars. By applying PCA, the project aims to uncover underlying patterns, correlations, and intrinsic structures within the datasets.", topLink: "projects-detail.html?projectId=10", bottomLink: "https://github.com/DarioPTWR/Principal-Component-Analysis/blob/main/PCA-DAIRY-DATASET.ipynb"  },
             { image: "../images/gradientdescent-info.png", title: "Gradient Descent Algorithm", description: "MACHINE LEARNING", software:"This project mainly relied on Python and Minitab, utilizing data processing libraries including NumPy, Pandas and StandardScaler to perform gradient descent.", info: "This project revolves around the creation and implementation of a gradient descent algorithm customized specifically for the task of linear regression. The goal is to leverage data analysis and machine learning to predict the resale transacted prices of 4-Room HDB flats located in the Choa Chu Kang area from January to June 2023. By leveraging historical data and optimization techniques, this project aims to provide valuable and accurate forecasts for property resale prices, contributing to informed decision-making in the real estate market.", topLink: "projects-detail.html?projectId=11", bottomLink: "https://github.com/DarioPTWR/Gradient-Descent-Algorithm/blob/main/Gradient-Descent-Algorithm.ipynb"  },
             { image: "../images/portfolio_website-info.png", title: "Personal Portfolio Website", description: "FRONT-END WEB DEVELOPMENT", software:"This project mainly relied on the use of HTML 5, CSS 3, and Bootstrap for front-end development, complemented with the use of JavaScript for storing data and providing interactivity to the website.", info: "This project is what you're currently viewing. It's an interactive and fully responsive website designed to present my technology portfolio, including my works and experiences in artificial intelligence and data analytics. It is hosted on Netlify for viewing by the public.", topLink: "projects-detail.html?projectId=12", bottomLink: "https://darios-webpage.netlify.app/"  },
+            { image: "../images/emotion-reco-info.png", title: "Emotion Recognition Image Analysis", description: "DEEP LEARNING", software:"This project mainly relied on Python, with Tensorflow and Keras libraries for analyzing image patterns, and a convolutional neural network deep learning model for building the model.", info: "This project is aimed at developing a convolutional neural network deep learning model for multi-class image classification analysis. It can discern human emotions by examining facial images of humans. This model can contribute to applications such as emotion recognition in human-computer interaction systems, sentiment analysis in marketing and customer service, and enhancing the understanding of emotional responses in various contexts.", topLink: "projects-detail.html?projectId=13", bottomLink: "https://github.com/DarioPTWR/Emotion-Recognition-Neural-Network/blob/main/IMAGE-CLASSIFICATION-EMOTION-RECOGNITION.ipynb"  }
         ];
 
         // Get the projectId from the URL query parameter
@@ -126,11 +105,6 @@
         } else {
             projectDetailDiv.innerHTML = '<p class="text-center" style="margin-top:100px">PROJECT NOT FOUND.</p>';
         }
-
-        // Loader Function
-        setTimeout(function(){
-          $('.loader').fadeToggle();
-        }, 1500);
     </script>
 
     <!--Footer-->
