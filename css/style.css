@@ -1,4 +1,7 @@
-/*! * Bootstrap v4.3.1 (https://getbootstrap.com/) * Copyright 2011-2019 The Bootstrap Authors * Copyright 2011-2019 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
+@font-face {
+  font-family: 'SFPro';
+  src: url('../fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -44,11 +47,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #111010;
   text-align: left;
   background-color: #fff;
 }
@@ -3120,12 +3122,12 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   border-color: #e9ecef #e9ecef #dee2e6;
 }
 .nav-tabs .nav-link.disabled {
-  color: #343a40;
+  color: #111010;
   background-color: transparent;
   border-color: transparent;
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-  color: #343a40;
+  color: #111010;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -3484,7 +3486,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-toggler {
-  color: #343a40;
+  color: #111010;
   border-color: rgba(0, 0, 0, 0.1);
 }
 .navbar-light .navbar-toggler-icon {
@@ -3597,8 +3599,8 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 }
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #111010;
+  border-top: 1px solid #111010;
 }
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
@@ -5312,7 +5314,7 @@ a.bg-light:hover, a.bg-light:focus, button.bg-light:hover, button.bg-light:focus
   background-color: #dae0e5 !important;
 }
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #000 !important;
 }
 a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
   background-color: #1d2124 !important;
@@ -5375,7 +5377,7 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
   border-color: #f8f9fa !important;
 }
 .border-dark {
-  border-color: #343a40 !important;
+  border-color: #000 !important;
 }
 .border-white {
   border-color: #fff !important;
@@ -8251,7 +8253,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #343a40;
+  background: #111010;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -8291,7 +8293,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-      background: #343a40 !important;
+      background: #111010 !important;
       position: relative;
       top: 0;
       padding-top: 0;
@@ -8443,7 +8445,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #343a40 !important;
+  background: #111010 !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   padding: 0 15px;
@@ -8500,7 +8502,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   letter-spacing: .1em;
 }
 .ftco-navbar-light.scrolled .nav-link {
-  color: #343a40 !important;
+  color: #111010 !important;
 }
 .ftco-navbar-light.scrolled .nav-link.active {
   color: #ffbd39 !important;
@@ -8622,7 +8624,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #343a40;
+  background: #111010;
   opacity: 0;
 }
 .owl-carousel.home-slider .slider-item .slider-text {
@@ -8645,7 +8647,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #343a40;
+  background: #111010;
   opacity: 0;
 }
 @media (max-width: 1199.98px) {
@@ -8710,7 +8712,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
  }
 }
 .owl-carousel.home-slider .slider-item .slider-text .subheading {
-  color: #343a40;
+  color: #111010;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 3px;
@@ -8795,7 +8797,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .owl-carousel.home-slider .owl-nav .owl-prev span:before, .owl-carousel.home-slider .owl-nav .owl-next span:before {
   font-size: 20px;
   margin-top: 7px;
-  color: #343a40;
+  color: #111010;
 }
 .owl-carousel.home-slider .owl-nav .owl-prev {
   top: 0 !important;
@@ -8825,7 +8827,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
  }
 }
 .owl-carousel.home-slider .owl-nav .owl-next:hover, .owl-carousel.home-slider .owl-nav .owl-next:focus {
-  background: #343a40 !important;
+  background: #111010 !important;
   outline: none !important;
 }
 .owl-carousel.home-slider .owl-nav .owl-next:hover span:before, .owl-carousel.home-slider .owl-nav .owl-next:focus span:before {
@@ -8870,7 +8872,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   bottom: 0;
   content: '';
   opacity: 0;
-  background: #343a40;
+  background: #111010;
 }
 .slider-text h1 {
   font-size: 48px;
@@ -9390,7 +9392,7 @@ textarea.form-control {
 }
 .ftco-footer {
   font-size: 16px;
-  background: #343a40;
+  background: #111010;
   z-index: 0;
 }
 .ftco-footer .ftco-footer-logo {
@@ -9990,17 +9992,9 @@ textarea.form-control {
 }
 
 /* Card Styles */
-.card-projects:hover {
-  background: #ffbd39;
-}
 .card-projects p {
-  color: #999999 
-}
-.card-projects:hover h5 {
-  color: #000000;
-}
-.card-projects:hover p {
-  color: #000000;
+  color: #999999;
+  font-weight: 600;
 }
 .card, .exp {
   height: 100%;
@@ -10334,23 +10328,12 @@ textarea.form-control {
 
 /* Navigation Hamburger Icon */
 /* Initially hide the 'x' icon when the navbar is collapsed */
-.navbar-toggler.collapsed .oi-x {
-  display: none;
-}
 /* Show the 'menu' icon when the navbar is collapsed */
 .navbar-toggler.collapsed .oi-menu {
   display: inline-block;
 }
-/* Hide the 'menu' icon when the navbar is collapsed */
-.navbar-toggler:not(.collapsed) .oi-menu {
-  display: none;
-}
-/* Show the 'x' icon when the navbar is collapsed */
-.navbar-toggler:not(.collapsed) .oi-x {
-  display: inline-block;
-}
 /* Add a smooth transition effect for icon change */
-.navbar-toggler .oi-menu, .navbar-toggler .oi-x {
+.navbar-toggler .oi-menu, .navbar-toggler .oi-menu {
   transition: all 0.3s;
 }
 
@@ -10360,7 +10343,7 @@ textarea.form-control {
   align-items: center;
   border: 1px solid white;
   border-radius: 50px;
-  background-color: #343a40;
+
 }
 .search-bar {
   flex-grow: 1;
@@ -10394,3 +10377,38 @@ textarea.form-control {
 .back-arrow {
   font-size: 20px; 
 }
+
+.projects-carousel .container {
+  position: relative;
+  overflow: hidden;
+}
+
+.projects-slider .projects {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project {
+  min-width: 100%; /* Ensure each project takes full width of the container */
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.prev-arrow {
+  left: 10px;
+}
+
+.next-arrow {
+  right: 10px;
+}
+
