@@ -58,42 +58,43 @@
 	
 	<!-- Home Section (Introduction and Picture) -->
 	<section id="home-section" class="hero">
-		<div class="home-slider owl-carousel" data-plugin-options="{'items': 1, 'loop': false, 'dots': false, 'nav': true, 'autoHeight': false, 'preventMovementUntilSwipeScrollTolerance': true, 'swipeScrollTolerance': 50}">
-			<!--Feature Section / Introduction Section-->
-			<div class="slider-item">
+		<div class="home-slider owl-carousel" data-plugin-options="{'items': 1, 'loop': true, 'dots': true, 'nav': false, 'autoHeight': false, 'preventMovementUntilSwipeScrollTolerance': true, 'swipeScrollTolerance': 50}">
+			<!-- First slider item without image -->
+			<div class="slider-item mt-3">
 				<div class="overlay"></div>
 				<div class="container">
-					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-						<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
-							<div class="overlay"></div>
-						</div>
-						<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax="properties: { translateY: '70%' }">
-							<div class="text mx-3">
+					<div class="row d-md-flex no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+						<div class="col-12 d-flex align-items-center justify-content-center ftco-animate" data-scrollax="properties: { translateY: '70%' }">
+							<div class="text text-center">
 								<span class="subheading">Hey There!</span>
 								<h1 class="mb-4 mt-3">I'm <span>Dario Prawara Teh</span></h1>
 								<h3 class="mb-4">An Aspiring Software Engineer</h3>
-								<p><a href="./docs/RESUME-2023-DARIO-PRAWARA-TEH-WEI-RONG.pdf" class="btn btn-primary py-3 px-4">View CV</a> <a href="./public/projects.html" class="btn btn-white btn-outline-white py-3 px-4">My projects</a></p>
+								<p class="mt-5">
+									<a href="./docs/RESUME-2023-DARIO-PRAWARA-TEH-WEI-RONG.pdf" class="resume-btn btn btn-primary py-3 px-4">View CV</a>
+									<a href="./public/projects.html" class="project-btn btn btn-white btn-outline-white py-3 px-4">My projects</a>
+								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="slider-item">
+			<!-- Second slider item without image -->
+			<div class="slider-item mt-3">
 				<div class="overlay"></div>
-			  <div class="container">
-				<div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-					<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1_ver2.png);">
-						<div class="overlay"></div>
+				<div class="container">
+					<div class="row d-md-flex no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+						<div class="col-10 d-flex align-items-center justify-content-center ftco-animate" data-scrollax="properties: { translateY: '70%' }">
+							<div class="text text-center">
+								<span class="subheading">Hey There!</span>
+								<h1 class="carousel-text-2 mb-4 mt-3">I'm a <span>computer science</span> student based in Singapore</h1>
+								<p class="mt-5">
+									<a href="./docs/RESUME-2023-DARIO-PRAWARA-TEH-WEI-RONG.pdf" class="resume-btn btn btn-primary py-3 px-4">View CV</a>
+									<a href="./public/projects.html" class="project-btn btn btn-white btn-outline-white py-3 px-4">My projects</a>
+								</p>
+							</div>
+						</div>
 					</div>
-					<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-						<div class="text mx-3">
-							<span class="subheading">Hey There!</span>
-						  <h1 class="carousel-text-2 mb-4 mt-3">I'm a <span>computer science</span> student in Singapore</h1>
-						  <p><a href="./docs/RESUME-2023-DARIO-PRAWARA-TEH-WEI-RONG.pdf" class="btn btn-primary py-3 px-4">View CV</a> <a href="./public/projects.html" class="btn btn-white btn-outline-white py-3 px-4">My projects</a></p>
-					  </div>
-					</div>
-				  </div>
-			  </div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -123,12 +124,12 @@
 						</div>
 					</div>
 					<!-- Counter Section -->
-					<div class="counter counter-wrap ftco-animate mt-md-4">
+					<div class="counter counter-wrap ftco-animate mt-md-3">
 						<div class="text">
 							<p style="font-size:17px;">
 								<!-- Project Completion Counter -->
 								<span class="number" data-number="15" style="font-weight:bold">0</span>
-								<span style="font-weight:bold">Projects Completed</span>
+								<span>projects completed</span>
 							</p>
 						</div>
 					</div>
