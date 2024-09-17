@@ -9066,7 +9066,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   border-radius: 5px;
 }
 .resume-wrap .date {
-  font-weight: 900;
+  font-weight: 600;
   font-size: 26px;
   color: #ffbd39;
 }
@@ -10412,3 +10412,19 @@ textarea.form-control {
   right: 10px;
 }
 
+/* For screens larger than 756px */
+@media (min-width: 756px) {
+  .resume-btn, .project-btn {
+    padding: 16px 32px; 
+    width: 250px;
+    font-size: 15px;
+    margin: 0 2px;
+  }
+}
+
+/* For screens smaller than 756px */
+@media (max-width: 756px) {
+  .resume-btn, .project-btn {
+    padding: 10px 20px; /* Smaller padding for smaller screens */
+  }
+}
